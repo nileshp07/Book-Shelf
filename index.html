@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Gallary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <section id="main">
+        <div class="upper">
+            <h1 id="name">
+                GRANTHALAYA
+            </h1>
+            <p>Books That Binds Us Together...</p>
+            <form class="searchbox">
+                <input type="text" name="searchbox" placeholder="Search Books" autocomplete="off">
+            </form>
+        </div>
+        <div class="list">
+            <h2>Books To Read.</h2>
+            <ul>
+                <li><span class="title">Srimad Bhagavad Gita</span><span class="delete">Delete</span></li>
+                <li><span class="title">The Art Of Happiness</span><span class="delete">Delete</span></li>
+                <li><span class="title">Finding Love</span><span class="delete">Delete</span></li>
+                <li><span class="title">Soulmates</span><span class="delete">Delete</span></li>
+                <li><span class="title">Then and Now</span><span class="delete">Delete</span></li>
+            </ul>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="hide-bk">
+            <span> Hide All Books</span>
+        </div>
+        <form class="add-bk">
+            <input type="text" placeholder="Add a Book"><button class="add">Add</button>
+        </form>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
